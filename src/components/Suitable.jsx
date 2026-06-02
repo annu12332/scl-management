@@ -10,7 +10,7 @@ const items = [
 
 export default function SuitableFor() {
     return (
-        <section className="py-14 px-4 bg-gradient-to-br from-white via-sky-50 to-blue-100">
+        <section className="py-14 px-4 bg-gradient-to-br from-white via-sky-100 to-sky-100">
             <div className="max-w-5xl mx-auto text-center">
 
                 {/* Heading */}
@@ -21,7 +21,7 @@ export default function SuitableFor() {
                     viewport={{ once: true }}
                     className="text-2xl md:text-4xl font-bold mb-8"
                 >
-                    <span className="bg-gradient-to-r from-sky-700 via-sky-600 to-sky-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-sky-800 via-sky-600 to-sky-700 bg-clip-text text-transparent">
                         Suitable For
                     </span>
                 </motion.h2>

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
     return (
-        <section className="bg-gradient-to-br from-sky-50 via-white to-blue-100 py-16 md:py-20 px-4 md:px-6 overflow-hidden">
+        <section className="bg-gradient-to-br from-sky-50 via-white to-blue-100 py-10 md:py-20 px-4 md:px-6 overflow-hidden">
             
             <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-14">
 

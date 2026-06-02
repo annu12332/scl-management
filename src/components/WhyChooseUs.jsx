@@ -13,7 +13,7 @@ const points = [
 export default function WhyChooseUs() {
     return (
         <section
-            className="py-14 md:py-16 px-4 bg-gradient-to-br from-sky-100 via-white to-blue-200"
+            className="py-14 md:py-16 px-4 bg-gradient-to-br from-sky-100 via-white to-sky-100"
             aria-labelledby="why-choose-heading"
         >
             <div className="max-w-6xl mx-auto">
@@ -58,7 +58,7 @@ export default function WhyChooseUs() {
                             <div className="relative z-10 p-4 flex items-start gap-3">
 
                                 {/* Icon */}
-                                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-blue-900 text-white text-sm font-semibold shadow">
+                                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-sky-700 text-white text-sm font-semibold shadow">
                                     ✓
                                 </div>
 

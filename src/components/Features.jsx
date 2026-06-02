@@ -22,7 +22,7 @@ export default function Features() {
 
                 {/* Heading */}
                 <h2 className="text-2xl md:text-4xl font-bold text-center mb-10">
-                    <span className="bg-gradient-to-r from-blue-700 via-blue-600 to-sky-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-sky-700 via-sky-600 to-sky-500 bg-clip-text text-transparent">
                         Powerful Features
                     </span>
                 </h2>
