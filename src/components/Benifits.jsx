@@ -14,7 +14,7 @@ export default function Benefits() {
     return (
         <section
             id="benefits"
-            className="bg-gradient-to-br from-blue-600 via-blue-700 to-sky-600 py-16 px-4 md:px-6 text-white"
+            className="bg-gradient-to-br from-sky-600 via-sky-700 to-sky-600 py-16 px-4 md:px-6 text-white"
         >
             <div className="max-w-5xl mx-auto">
                 

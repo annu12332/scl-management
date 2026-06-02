@@ -21,7 +21,7 @@ export default function SuitableFor() {
                     viewport={{ once: true }}
                     className="text-2xl md:text-4xl font-bold mb-8"
                 >
-                    <span className="bg-gradient-to-r from-blue-700 via-blue-600 to-sky-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-sky-700 via-sky-600 to-sky-500 bg-clip-text text-transparent">
                         Suitable For
                     </span>
                 </motion.h2>
@@ -37,7 +37,7 @@ export default function SuitableFor() {
                             viewport={{ once: true }}
                             whileHover={{ scale: 1.05 }}
                             className="px-4 py-2 md:px-5 md:py-3 rounded-full text-sm md:text-base font-semibold 
-                            bg-blue-200 backdrop-blur-xl border border-white/40 shadow-sm 
+                            bg-sky-200 backdrop-blur-xl border border-white/40 shadow-sm 
                             hover:shadow-lg transition relative overflow-hidden group"
                         >
                             {/* gradient glow */}

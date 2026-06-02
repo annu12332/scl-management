@@ -13,7 +13,7 @@ export default function Hero() {
                     transition={{ duration: 0.7 }}
                     className="flex-1 space-y-5 text-center md:text-left"
                 >
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 leading-tight">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-sky-700 leading-tight">
                         Complete School Management Software for Modern Educational Institutions
                     </h1>
 
@@ -23,7 +23,7 @@ export default function Hero() {
                     </p>
 
                     <div className="pt-2">
-                        <button className="bg-blue-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-black transition transform hover:scale-105 shadow-md">
+                        <button className="bg-sky-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-black transition transform hover:scale-105 shadow-md">
                             Request a Free Demo Today
                         </button>
                     </div>

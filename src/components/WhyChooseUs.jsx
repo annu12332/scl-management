@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
                 >
                     <h2
                         id="why-choose-heading"
-                        className="text-2xl md:text-4xl font-bold text-blue-900"
+                        className="text-2xl md:text-4xl font-bold text-sky-700"
                     >
                         Why Choose Our School Management System?
                     </h2>
@@ -70,7 +70,7 @@ export default function WhyChooseUs() {
                             </div>
 
                             {/* Bottom subtle accent */}
-                            <div className="h-[2px] w-full bg-gradient-to-r from-blue-900 via-sky-500 to-blue-400 opacity-70 rounded-b-xl"></div>
+                            <div className="h-[2px] w-full bg-gradient-to-r from-sky-900 via-sky-500 to-sky-400 opacity-70 rounded-b-xl"></div>
                         </motion.div>
                     ))}
 
