@@ -43,11 +43,19 @@ export default function Navbar() {
                             ThinkCodify
                         </div>
 
+                        {/* Desktop Links */}
+                        <div className="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-700">
+                            <a href="#features" className="hover:text-blue-600 transition">Features</a>
+                            <a href="#benefits" className="hover:text-blue-600 transition">Benefits</a>
+                            <a href="#why-choose-us" className="hover:text-blue-600 transition">Why Us</a>
+                            <a href="#contact" className="hover:text-blue-600 transition">Contact</a>
+                        </div>
+
                         {/* Desktop Button */}
-                        <button className="hidden md:block text-sm bg-gradient-to-r from-sky-500 to-blue-500 
-                            text-white px-5 py-1.5 rounded-md font-semibold">
+                        <a href="https://wa.me/8801847239701" target="_blank" rel="noopener noreferrer" className="hidden md:block text-sm bg-gradient-to-r from-sky-500 to-blue-500 
+                            text-white px-5 py-2 rounded-md font-semibold hover:shadow-lg hover:scale-105 transition transform">
                             Request Demo
-                        </button>
+                        </a>
 
                         {/* Mobile Toggle */}
                         <button
@@ -69,10 +77,17 @@ export default function Navbar() {
                                 className="mt-2 mx-1 rounded-xl bg-white/40 backdrop-blur-2xl 
                                 border border-white/30 shadow-md p-3"
                             >
-                                <button className="w-full text-sm bg-gradient-to-r from-sky-500 to-blue-500 
-                                    text-white py-2 rounded-md font-semibold">
-                                    Request Demo
-                                </button>
+                                <div className="flex flex-col space-y-3 p-2">
+                                    <a href="#features" onClick={() => setOpen(false)} className="text-gray-700 font-medium hover:text-blue-600">Features</a>
+                                    <a href="#benefits" onClick={() => setOpen(false)} className="text-gray-700 font-medium hover:text-blue-600">Benefits</a>
+                                    <a href="#why-choose-us" onClick={() => setOpen(false)} className="text-gray-700 font-medium hover:text-blue-600">Why Choose Us</a>
+                                    <a href="#contact" onClick={() => setOpen(false)} className="text-gray-700 font-medium hover:text-blue-600">Contact</a>
+                                    
+                                    <a href="https://wa.me/8801847239701" target="_blank" rel="noopener noreferrer" className="w-full text-center text-sm bg-gradient-to-r from-sky-500 to-blue-500 
+                                        text-white py-2 rounded-md font-semibold mt-2">
+                                        Request Demo
+                                    </a>
+                                </div>
                             </motion.div>
                         )}
                     </AnimatePresence>

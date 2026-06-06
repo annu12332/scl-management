@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
     return (
-        <section className="bg-gradient-to-br from-white via-white to-blue-50 py-10 md:py-20 px-4 md:px-6 overflow-hidden relative">
+        <section className="bg-gradient-to-br from-white via-white to-blue-50 py-10 mt-9 md:py-20 px-4 md:px-6 overflow-hidden relative">
 
             {/* Animated background gradient */}
             <motion.div

@@ -37,6 +37,7 @@ const itemVariant = {
 export default function WhyChooseUs() {
     return (
         <section
+            id="why-choose-us"
             className="py-14 md:py-16 px-4 bg-gradient-to-br from-sky-100 via-white to-sky-100 overflow-hidden"
             aria-labelledby="why-choose-heading"
         >

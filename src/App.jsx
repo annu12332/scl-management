@@ -4,16 +4,20 @@ import Features from "./components/Features";
 import Hero from "./components/Hero";
 import SuitableFor from "./components/Suitable";
 import WhyChooseUs from "./components/WhyChooseUs";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <div className="font-sans text-gray-900">
+      <Navbar />
       <Hero />
-      <Features/>
+      <Features />
       <Benefits />
-      <SuitableFor/>
-      <WhyChooseUs/>
+      <SuitableFor />
+      <WhyChooseUs />
       <Contact />
+      <Footer />
     </div>
   );
 }
